@@ -1,0 +1,83 @@
+.img-adjust{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+}
+.photo{
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    border-radius: 50%; /* Makes the div circular */
+    overflow: hidden; /* Ensures that the image does not overflow the container */
+    display: flex; /* Centering the image */
+    justify-content: center; /* Centering the image */
+    align-items: center; /* Centering the image */
+    border: 2px solid #ddd; 
+    background-color: #f9f9f9; 
+    margin: auto;
+}
+.photo-data{
+     width: 500px;
+     margin: auto;
+     margin-top:20px;
+    }
+label{
+     font-size: 30px;
+     color:green;
+     padding: 3px;
+}
+.star-rating {
+    color: #ffcc00;
+    font-size: 2rem;
+    display: inline-block;
+  }
+  input[type='button'] {
+     width: 300px;
+     height: 50px;
+     text-align: center;
+     border-radius: 10px;
+     margin: 30px 100px;
+}
+input[type='text']{
+    cursor:none;
+    border:5px solid rgb(98, 162, 240);
+}
+.box{
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+}
+
+input[type="submit"]{
+     width: 300px;
+     height: 50px;
+   
+}
+.adjust-submit{
+     display: flex;
+     justify-content: center;
+     margin: 40px 0px;
+}
+.login{
+    width: 400px;
+    height: 400px;
+    border: 2px solid #dee2de;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+}
+.adjust-box{
+     display: flex;
+      justify-content: center;
+   margin-top:100px;
+}
+
+
+
+
+
+
+
+
+
+
